@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Century Gothic';
+      background: #e4e4e4;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  .sideList {
+    float: left;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 20px;
+  }
+  .sideList ul {
+    list-style: none;
+    padding: 20px;
+    height: 400px;
+    overflow: auto;
+  }
+  .sideList ul li {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sideList ul li span {
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px
+  }
+  /* .sideList ul li .control {
+      width: 20%;
+  } */
+  .sideList ul li .control button {
+    float: right;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    background: #334D5C;
+    border-bottom: 2px solid #000;
+    border-radius: 5px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .sideList ul li .control button.deleteButton {
+    background: #eb0000;
+    margin-left: 10px;
+  }
+  .sideList ul li .upButton:hover {
+    background: #4e4e4e;
+  }
+  .sideList ul li:first-child .upButton {
+    display: none;
+  }
+    
+  .mainForm {
+    float: left;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 20px;
+    min-height: 400px;
+  }
+  .mainForm input[type="text"] {
+    width: 100px;
+    padding: 15px;
+    background: #fff;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .mainForm button {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    background: #334D5C;
+    border-bottom: 2px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .titles {
+      display: flex;
+      margin-left: 25px;
+      margin-right: 85px;
+  }
+  .titles .title {
+      width: 20%;
+      padding: 0px 15px;
+    
+      
+      
+  }
