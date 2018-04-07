@@ -70,14 +70,16 @@
   }
     
   .mainForm {
-    float: left;
+    float: none;
     box-sizing: border-box;
     width: 60%;
     padding: 20px;
     min-height: 400px;
   }
   .mainForm input[type="text"] {
-    width: 100px;
+    display: block;
+    width: 300px;
+    margin: 4px 0px;
     padding: 15px;
     background: #fff;
     border: none;
